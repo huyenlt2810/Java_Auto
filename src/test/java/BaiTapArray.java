@@ -46,6 +46,7 @@ public class BaiTapArray {
                     if (arr3[i] % j == 0) {
                         System.out.println(arr3[i] + " khong la so nguyen to");
                     }
+                    break;
                 }
                 System.out.println(arr3[i] + " la so nguyen to");
             }
