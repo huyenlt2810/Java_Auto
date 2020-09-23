@@ -8,10 +8,10 @@ public class Ex4 {
         int[] arrSum = new int[arr1.length];
         if (arr1.length>=arr2.length) {
             for (int i = 0; i < arr1.length; i++) {
-                if (i<=arr2.length) {
+                if (i<=arr2.length-1) {
                     arrSum[i] = arr1[i] + arr2[i];
                 }
-                else if (i>arr2.length) {
+                else {
                     arrSum[i] = arr1[i];
                 }
             }
